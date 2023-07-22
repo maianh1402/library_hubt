@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Document from "@/components/Document";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Map from "@/components/Map";
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <Search />
       <About />
+      <Document />
       <Map />
       <Footer />
     </div>

@@ -20,3 +20,33 @@ export const about = [
     text: "Tài liệu rõ ràng",
   },
 ];
+
+export const document = [
+  {
+    id: 1,
+    title: "Lập trình C++",
+    description:
+      "C++ là một loại ngôn ngữ lập trình bậc trung. Đây là ngôn ngữ lập trình đa năng được tạo ra bởi Bjarne Stroustrup",
+    star: 5,
+    src: "http://visualcpp.net/wp-content/uploads/2019/10/cpp_avatar.jpg",
+    text: "Tra cứu nhanh",
+  },
+  {
+    id: 2,
+    title: "Lập trình java",
+    description:
+      "Java là một trong những ngôn ngữ lập trình hướng đối tượng. Nó được sử dụng trong phát triển phần mềm, trang web, game hay ứng dụng",
+    star: 5,
+    src: "https://images.careerbuilder.vn/content/news/20160802/java-stuff-696x557_1470108126.png",
+    text: "Tiện lợi",
+  },
+  {
+    id: 3,
+    title: "Ngôn ngữ Python",
+    description:
+      "Python là một ngôn ngữ lập trình bậc cao cho các mục đích lập trình đa năng, do Guido van Rossum tạo ra và lần đầu ra mắt vào năm 1991.",
+    star: 5,
+    src: "https://tuhocict.com/wp-content/uploads/2020/06/Python-programming-language-feature-image-1024x576.jpg",
+    text: "Tài liệu rõ ràng",
+  },
+];
