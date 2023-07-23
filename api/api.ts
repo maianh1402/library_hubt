@@ -50,3 +50,24 @@ export const document = [
     text: "Tài liệu rõ ràng",
   },
 ];
+
+export const review = [
+  {
+    name: "a",
+    avatar: "http://diaoc5sao.vn/wp-content/uploads/2016/02/2.png",
+    cmt: "Tài liệu đọc dễ hiểu, tìm kiếm nhanh gọn, tiện lợi",
+    date: Date.now(),
+  },
+  {
+    name: "b",
+    avatar: "http://diaoc5sao.vn/wp-content/uploads/2016/02/2.png",
+    cmt: "Tra cứu nhanh",
+    date: Date.now(),
+  },
+  {
+    name: "c",
+    avatar: "http://diaoc5sao.vn/wp-content/uploads/2016/02/2.png",
+    cmt: "Tài liệu đọc dễ hiểu, tìm kiếm nhanh gọn, tiện lợi",
+    date: Date.now(),
+  },
+];
