@@ -1,10 +1,10 @@
 const About = () => {
   return (
-    <div className="bg-gray-800 py-[10px]">
-      <h1 className="text-center mb-[50px] relative  text-[30px]">
+    <div className="h-[100vh] bg-gray-800 py-[10px]">
+      <h1 className="text-center my-[60px] relative  text-[40px] text-[#fff]">
         Giới thiệu
       </h1>
-      <div className="mt-[5px] mx-[100px] grid grid-cols-2 gap-2">
+      <div className="mb-[60px] mt-[5px] mx-[100px] grid grid-cols-2 gap-2">
         <div>
           <iframe
             width="570"

@@ -1,12 +1,9 @@
 "use client";
-import { Fragment, useState } from "react";
 import { BiLogoFacebook, BiPhone } from "react-icons/bi";
 import { AiFillYoutube, AiOutlineMail } from "react-icons/ai";
 import { ImEarth } from "react-icons/im";
 
-import { navigation } from "@/api/api";
 import Navbar from "./Navbar";
-import { Disclosure } from "@headlessui/react";
 
 const footer = [
   {
@@ -25,7 +22,7 @@ const footer = [
 export default function Footer() {
   return (
     <>
-      <div className="grid grid-cols-2 gap bg-gray-800 text-gray-300 mt-[5px] px-[530px] py-[50px]">
+      <div className="h-[50vh] grid grid-cols-2 gap bg-gray-800 text-gray-300 mt-[5px] px-[530px] py-[50px]">
         <div className="col-span-3 pb-[40px]">
           <Navbar />
         </div>
