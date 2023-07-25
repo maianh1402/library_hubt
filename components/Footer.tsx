@@ -22,7 +22,7 @@ const footer = [
 export default function Footer() {
   return (
     <>
-      <div className="h-[50vh] grid grid-cols-2 gap bg-gray-800 text-gray-300 mt-[5px] px-[530px] py-[50px]">
+      <div className="h-[50vh] grid grid-cols-2 gap bg-gray-800 text-gray-300 px-[530px] py-[50px]">
         <div className="col-span-3 pb-[40px]">
           <Navbar />
         </div>

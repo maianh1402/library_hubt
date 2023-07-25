@@ -85,18 +85,6 @@ export default function Header() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="/settings"
-                            className={`${active ? "bg-gray-100" : ""}
-                              px-4 py-2 text-sm text-gray-700 flex`}
-                          >
-                            <AiOutlineSetting className="mr-[10px]" />
-                            <span>Settings</span>
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
                             href="/sigin"
                             className={`${active ? "bg-gray-100" : ""}
                             flex px-4 py-2 text-sm text-gray-700`}

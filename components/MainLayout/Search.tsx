@@ -1,6 +1,6 @@
 const Search = () => {
   return (
-    <div className="relative">
+    <div className="relative pt-[60px]">
       <img
         src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2020/8/21/829783/DJI_0216.jpg"
         width="100%"

@@ -1,11 +1,12 @@
 import { review } from "@/api/api";
 import dayjs from "dayjs";
-import { BsArrowRight } from "react-icons/bs";
 
 const Review = () => {
   return (
     <div className="h-[100vh] px-[100px] bg-gray-800">
-      <h1 className="text-center my-[60px] relative  text-[40px]">Review</h1>
+      <h1 className="text-center py-[60px] relative  text-[40px] text-[#fff]">
+        Review
+      </h1>
       <div className="flex flex-wrap justify-between">
         {review.map((item) => (
           <div className="bg-[#fff] rounded-[5px] w-[30%] px-[20px] py-[12px] shadow-[2px_2px_10px_0px_rgba(0,0,0,0.2)] hover:shadow-[2px_2px_10px_0px_#6DBFE2] mb-[10px]">
